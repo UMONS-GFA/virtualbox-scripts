@@ -4,6 +4,10 @@ Virtualbox Scripts
 For users
 ----------
 
+Requirements:
+
+* git
+
 To update your virtualbox(Ubuntu, python packages)
 
 Get the scripts
