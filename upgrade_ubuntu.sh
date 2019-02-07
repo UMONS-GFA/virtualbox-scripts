@@ -8,8 +8,11 @@ sudo apt-get -y dist-upgrade
 echo "Install requirements for python "
 sudo apt-get install python3-pip python3-dev
 
+echo "Installing GDAL"
+sudo apt-get install gdal-bin libgdal-dev
+
+echo "Installing QGIS"
+sudo apt-get install qgis
+
 echo "Installing sqlite…"
 sudo apt-get install sqlite3
-
-echo "Upgrading python packages…"
-./upgrade_python_packages.sh
