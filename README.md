@@ -26,17 +26,21 @@ Launch the update script
 For developers
 ---------------
 
+Requirements
+
+* python3-venv
+
+Create a virtual env
+
+    python3 -m venv ~/.local/share/virtualenvs/gfa_venv
+    
+Activate the env
+
+    source ~/.local/share/virtualenvs/MY_VIRTUAL_ENV/bin/activate
+
 Install pipenv
 
-    sudo pip3 install pipenv
-    
-Create a new virtual environment
-
-    pipenv --three
-    
-Open the environment 
-
-    pipenv shell
+    pip install pipenv
     
 Install packages from the Pipfile
 
@@ -46,9 +50,6 @@ To install a new library
 
     pipenv install [Library name]
     
-Generate the requirements.txt file
-
-    pipenv lock -r > requirements.txt
 
 
 
