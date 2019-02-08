@@ -19,7 +19,7 @@ scipy = "==1.1.0"
 shapely = "==1.6.4.post2"
 simplejson = "==3.13.2"
 sphinx = "==1.8.2"
-"ipython-sql" = "*"
+ipython-sql = "==0.3.9"
 
 
 [dev-packages]
