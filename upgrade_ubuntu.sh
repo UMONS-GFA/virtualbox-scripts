@@ -6,13 +6,13 @@ sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 
 echo "Install requirements for python "
-sudo apt-get install python3-pip python3-dev
+sudo apt-get -y install python3-pip python3-dev
 
 echo "Installing GDAL"
-sudo apt-get install gdal-bin libgdal-dev
+sudo apt-get -y install gdal-bin libgdal-dev
 
 echo "Installing QGIS"
-sudo apt-get install qgis
+sudo apt-get -y install qgis
 
 echo "Installing sqlite…"
-sudo apt-get install sqlite3
+sudo apt-get -y install sqlite3
