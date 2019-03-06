@@ -7,6 +7,29 @@ For users
 Requirements:
 
 * git
+* python3-venv
+
+
+
+    apt install git python3-venv
+    
+Create a virtual env
+
+    python3 -m venv ~/.local/share/virtualenvs/gfa_venv
+    
+Activate the env
+
+    source ~/.local/share/virtualenvs/gfa_venv/bin/activate
+    
+For resilience, you can add this line to your ~/.bashrc file(optional)
+
+    echo 'source ~/.local/share/virtualenvs/gfa_venv/bin/activate' >> ~/.bashrc
+    
+
+Install pipenv
+
+    pip install pipenv
+    
 
 To update your virtualbox(Ubuntu, python packages)
 
@@ -26,26 +49,6 @@ Launch the update script
 For developers
 ---------------
 
-Requirements
-
-* python3-venv
-
-Create a virtual env
-
-    python3 -m venv ~/.local/share/virtualenvs/gfa_venv
-    
-Activate the env
-
-    source ~/.local/share/virtualenvs/MY_VIRTUAL_ENV/bin/activate
-
-Install pipenv
-
-    pip install pipenv
-    
-Install packages from the Pipfile
-
-    pipenv install
-    
 To install a new library
 
     pipenv install [Library name]
