@@ -44,7 +44,7 @@ Go into the directory
 
 Launch the update script
 
-    sudo ./upgrade.sh
+    ./upgrade.sh
 
 For developers
 ---------------
