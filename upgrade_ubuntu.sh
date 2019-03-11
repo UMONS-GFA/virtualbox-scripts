@@ -11,9 +11,6 @@ sudo apt-get -y install python3-pip python3-dev
 echo "Installing GDAL"
 sudo apt-get -y install gdal-bin libgdal-dev
 
-echo "Installing QGIS"
-sudo apt-get -y install qgis
-
 echo "Installing sqlite…"
 sudo apt-get -y install sqlite3
 
