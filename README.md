@@ -31,8 +31,6 @@ Install pipenv
     pip install pipenv
     
 
-To update your virtualbox(Ubuntu, python packages)
-
 Get the scripts
 
 
@@ -45,6 +43,7 @@ Go into the directory
 Launch the update script
 
     ./upgrade.sh
+    
 
 For developers
 ---------------
@@ -52,6 +51,25 @@ For developers
 To install a new library
 
     pipenv install [Library name]
+    
+    
+QGIS
+-----
+
+The safest way to install QGIS 3 is with flatpak
+
+    sudo apt install flatpak gnome-software-plugin-flatpak
+    
+Add flatpak repo
+
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    
+Restart your system
+
+Install QGIS 
+
+    flatpak install flathub org.qgis.qgis
+
     
 
 
