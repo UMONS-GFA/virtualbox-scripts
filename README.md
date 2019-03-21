@@ -69,6 +69,18 @@ Restart your system
 Install QGIS 
 
     flatpak install flathub org.qgis.qgis
+    
+Virtualbox shared folder
+------------------------
+
+Fix read permissions
+
+You need to add the user into the *vboxsf* group 
+
+
+    gfa@gfa-vm:~$ sudo usermod -aG vboxsf 
+    
+Close the user session, open a new one
 
     
 
